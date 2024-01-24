@@ -1,7 +1,7 @@
 {
     "name": "nextjs-new-page-snippet",
     "repository": "https://github.com/makkenzo/nextjs-new-page-snippet",
-    "displayName": "NextJS snippets",
+    "displayName": "NextJS page and layout quick snippets",
     "description": "Snippets for NextJS",
     "publisher": "makkenzo",
     "author": "makkenzo",
