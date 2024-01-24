@@ -1,0 +1,20 @@
+{
+  "name": "nextjs-new-page-snippet",
+  "displayName": "NextJS New page snippet",
+  "description": "Snippet for creating a new page in NextJS",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
