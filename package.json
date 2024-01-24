@@ -1,7 +1,9 @@
 {
     "name": "nextjs-new-page-snippet",
-    "displayName": "NextJS New page snippet",
-    "description": "Snippet for creating a new page in NextJS",
+    "repository": "https://github.com/makkenzo/nextjs-new-page-snippet",
+    "displayName": "NextJS snippets",
+    "description": "Snippets for NextJS",
+    "author": "makkenzo",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.85.0"
