@@ -2,11 +2,11 @@
     "New page": {
         "prefix": ["npg", "newpage"],
         "body": "'use client';\n\ninterface ${1:Page}Props {}\n\nconst ${1:Page} = ({}: ${1:Page}Props) => {\n    return (\n        <div>\n            <h1>${1:Page}</h1>\n        </div>\n    );\n};\n\nexport default ${1:Page};",
-        "description": "New page.tsx"
+        "description": "Creates a new NextJS page.tsx"
     },
     "New layout": {
         "prefix": ["nly", "newlayout"],
         "body": "// Import your globals here\n// import \"@/styles/globals.css\";\n\nimport { Inter } from \"next/font/google\";\n\nconst inter = Inter({\n    subsets: [\"latin\"],\n});\n\nexport const metadata = {\n    title: \"${0:New page title here}\",\n    description: \"Sample description\",\n};\n\nexport default function ${1:Root}Layout({children}: {children: React.ReactNode}) {\n    return (\n        <html lang=\"en\">\n            <body className={inter.className}>{children}</body>\n        </html>\n    );\n}",
-        "description": "New layout.tsx"
+        "description": "Creates a new NextJS layout.tsx"
     }
 }
