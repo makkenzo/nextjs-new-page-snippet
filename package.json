@@ -3,6 +3,7 @@
     "repository": "https://github.com/makkenzo/nextjs-new-page-snippet",
     "displayName": "NextJS snippets",
     "description": "Snippets for NextJS",
+    "publisher": "makkenzo",
     "author": "makkenzo",
     "version": "0.0.1",
     "engines": {
